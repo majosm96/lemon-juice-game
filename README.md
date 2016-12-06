@@ -1,9 +1,5 @@
 # lemon-juice-game
 Final proyect
-
-# lemonjuice-game
-
-Proyecto
 ========
 
 Lemon juice game es un proyecto de final de curso. 
