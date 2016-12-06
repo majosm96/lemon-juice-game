@@ -1,0 +1,121 @@
+/*-General-*/
+
+body {
+	background-color: #DE0063;
+	font-family: 'VT323', monospace;
+	color: #fff;
+}
+
+h1 {
+	font-family: 'VT323', monospace;
+	font-size: 40px;
+	text-align: center;
+	color: #fff;
+	letter-spacing: 4px;
+}
+
+ul {
+	list-style: none;
+}
+
+button {
+	width: 200px;
+  height: 46px;
+  margin: 10px;
+	background-color: #5DE8A7;
+	border-radius: 25px;
+	border-color: #FAFF03;
+	font-family: 'VT323', monospace;
+	font-size: 20px;
+	color: #FAFF03;
+}
+
+/*-Game-*/
+.home {
+	width: 500px;
+	margin: 0 auto;
+}
+
+.wrapper {
+	text-align: center;
+
+}
+
+#bonus1 {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	display: none;
+}
+
+#bonus2 {
+	width: 180px;
+    height: 99px;
+    position: absolute;
+    left: 900px;
+    display: none;
+}
+
+#bonus3 {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+    right: 400px;
+	display: none;
+}
+
+.btn {
+	margin-left: 142px;
+}
+
+#lemon2 {
+	width: 40px;
+	height: 40px;
+	display: none;
+	position: absolute;
+	top: 76px;
+}
+
+#mylemon {
+	position: relative;
+}
+
+#won {
+	text-align: center;
+	font-family: 'VT323', monospace;
+	font-size: 60px;
+	display: none;
+	/*background-color: #DE0063;*/
+}
+
+.price {
+	margin: 0 70px 0 70px;
+}
+
+#itemLemon, #itemIce, #itemSugar, #itemPeppermint {
+	display: none;
+}
+
+#lemonPrice, #icePrice, #sugarPrice, #peppermintPrice {
+	display: none;
+}
+
+.save {
+	position: absolute;
+  bottom: 500px;
+}
+
+.saveLemon {
+	width: 100px;
+}
+
+/*--------- Gif --------*/
+.lemon {
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	z-index: 200px;
+	width: 16px;
+	height: 16px;
+	background-image: url('https://o1.t26.net/images/smiles/limoon.gif');
+}

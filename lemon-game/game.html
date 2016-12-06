@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Game</title>
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui-1.10.4.custom.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|VT323" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/lemon.png">
+</head>
+<body>
+
+    <!--Wrapper of the Game-->
+    <div class="wrapper">
+
+        <!--Time-->
+        <div id="timer"></div>
+
+        <!--Bonus hide-->
+        <img src="img/bonuslemon.png" id="bonus1">
+        <img src="img/sugar.png" id="bonus2">
+        <img src="img/bonuslemon.png" id="bonus3">
+        <img src="">
+
+        <!--main wrapper-->
+        <h1>LEMON JUICE GAME</h1>
+
+            <!--lemon animation-->
+            <div id="mylemon">
+
+                <img src="img/lemon.png" id="lemon2">
+
+            </div>
+            <!--Lemon clicker-->
+
+            <img src="img/lemon1.png" id="lemon">
+            <audio type="audio" id="audio" src="http://www.sonidosmp3gratis.com/sounds/haga-clic-en_4.mp3"></audio>
+
+            <!--Count of lemons-->
+            <div class="count"></div>
+            <p>LEMONS: <a id="lemons"></a></p>
+
+            <div id="mycounter"></div>
+
+            <!--Items of the Game-->
+            <div class="items">
+
+                <!--Buttons for buy items-->
+                <button id="itemLemon"><span id="lemonAmount">0</span> Extra lemons</button>
+                <button id="itemIce"><span id="iceAmount">0</span>Ice</button>
+                <button id="itemSugar"><span id="sugarAmount">0</span>Sugar</button>
+                <button id="itemPeppermint"><span id="peppermintAmount">0</span>Ment</button>
+                <br>
+
+                <!--Cost of each iteam-->
+                <span class="price" id="lemonPrice">price: 100 lemons</span>
+                <span class="price" id="icePrice">price: 1000 lemons</span>
+                <span class="price" id="sugarPrice">price: 5000 lemons</span>
+                <span class="price" id="peppermintPrice">price: 10000 lemons</span>
+
+            </div>
+    </div>
+
+    <!--Buttons for save and load the Game-->
+    <div class="save">
+        <button type="button" class="saveLemon" onclick="save()">Save</button><br>
+        <button type="button" class="saveLemon" onclick="load()">Load</button><br>
+    </div>
+
+
+
+    <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.10.4.custom.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.10.4.custom.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easyaudioeffects.1.0.0.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

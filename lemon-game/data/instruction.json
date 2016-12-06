@@ -1,0 +1,17 @@
+{
+  "rules":[
+
+	"Creadoras: María José Solís Marín y Maria Fernanda Fajardo Torres.",
+        "Instrucciones Generales:",
+        "1- Al iniciar el juego el jugador debe de dar click al limón, para optener limones.",
+        "2- Para desbloquear su primer item debe llegar a los 500 limones y tendrá la posibilidad de comprarlo y aumentar los limones por segundo.",
+        "3- Para desbloquear su segundo item debe llegar a los 1000 limones, y podra aumentar 100 limones por segundo.",
+        "4- Para desbloquear sugar deberá tener 5000 limones, aunmentando asi a 500 limones por segundo",
+        "5- Para desbloquear el item final peppermint deberá tener 10000 limones, y este item aumentara a 1000 limones por segundo su stock",
+        "6- El judador debe recordar que el precio de sus items incrementara cada vez que compre uno y que le costo de los ingredientes se le restara a sus limones en stock.",
+        "7- Entre mas limones tenga en stock podra comprar mas ingredientes para su limonada.",
+        "8- Ten cuidado con la lluvia de ingredientes que pueden hacer aumentar o disminuir limones.",
+        "9- Y ahora a disfrutar su limonda :)."
+
+	]
+}
